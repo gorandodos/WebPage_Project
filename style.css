@@ -12,7 +12,7 @@ header{
     display: flex;
     justify-content: space-between;
 } 
-figure img{
+figure .logo{
     flex:1;
     position: relative;
     bottom:12px;
@@ -93,6 +93,55 @@ section .signup{
     border:3px solid skyblue;
 }
 .section2{
-    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d3455;
 }
-   
+h3{
+    font-size: 36px;
+    font-weight: 900;
+    color:#87ceeb;
+}
+h3:hover{
+    color:blueviolet;
+}
+.section2 ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap:50px;
+    text-align: center;
+}
+img figcaption{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #87ceeb;
+}
+.food{
+    border-radius: 15px;
+    border: 2px solid blueviolet;
+}
+.food-subtxt{
+    font-size: 20px;
+    color: #87ceeb;
+}
+.food-subtxt:hover{
+    font-size: 20px;
+    color:blueviolet;
+}
+.section3 .quote{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(197, 202, 207);
+}
+.quote h3{
+    text-align: center;
+    color:white;
+}
+.quote p{
+    text-align: end;
+    font-size: 20px;
+    margin-right:50px;
+}
