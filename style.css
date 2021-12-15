@@ -145,3 +145,29 @@ img figcaption{
     font-size: 20px;
     margin-right:50px;
 }
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section4 .log-in{
+    margin:20px 0 20px 0;
+    padding:0px 100px 0px 200px;
+    border:3px solid blueviolet;
+    background-color: #87ceeb;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.log-in h4{
+    font-size: 20px;
+    color: blueviolet;
+}
+.sign-up-button{
+    border:2px solid blueviolet;
+    padding:10px;
+    margin:20px;
+}
+.sign-up-button [type="value"]{
+    
+}
