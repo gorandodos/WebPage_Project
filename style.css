@@ -35,8 +35,9 @@ ul a{
 }
 ul a:hover{
     color:blueviolet;
-    transition: 2.5s;
+    transition: 1s;
     text-decoration: underline;
+    
 }
 
 main {
@@ -83,6 +84,7 @@ section .signup{
     transition: 1.5s;
     color:white;
     background-color: blueviolet;
+    cursor: grab;
 }
 .img-place-holder{
     position: relative;
@@ -90,6 +92,9 @@ section .signup{
 }
 .img-place-holder img{
     border-radius: 40px;
+    border:3px solid skyblue;
+}
+.img-place-holder img:hover{
     border:3px solid skyblue;
 }
 .section2{
@@ -120,30 +125,39 @@ img figcaption{
     border: 2px solid #87ceeb;
 }
 .food{
+    margin-bottom: 10px;
     border-radius: 15px;
     border: 2px solid blueviolet;
+}
+.food:hover{
+    transform: scale(1.1);
+    cursor: grab;
 }
 .food-subtxt{
     font-size: 20px;
     color: #87ceeb;
 }
 .food-subtxt:hover{
-    font-size: 20px;
+    font-size:22px;
     color:blueviolet;
+    cursor:pointer;
 }
 .section3 .quote{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background: linear-gradient(120deg,#F4EBFF,#423079)
 }
 .quote h3{
+    font-size: 36px;
     text-align: center;
-    color:#4f44f0;
+    color: black;
+    cursor:text;
 }
 .quote p{
     text-align: end;
-    font-size: 20px;
+    font-size: 36px;
     margin-right:50px;
+    color:black;
 }
 .section4{
     display: flex;
@@ -174,9 +188,13 @@ img figcaption{
     color:white;
     background-color: blue;
     transition: 1.0s;
+    cursor: grab;
 }
 footer{
     color:white;
     background-color: #1d3455;
     text-align: center;
+}
+html{
+    scroll-behavior: smooth;
 }
